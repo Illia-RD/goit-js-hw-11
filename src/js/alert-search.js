@@ -23,7 +23,7 @@ function alertNoImagesFound() {
 }
 
 function alertEndOfSearch() {
-  Notiflix.Notify.failure(
+  Notiflix.Notify.info(
     "We're sorry, but you've reached the end of search results."
   );
 }
